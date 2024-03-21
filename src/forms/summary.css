@@ -1,0 +1,98 @@
+section.summary{
+    width: 80%;
+}
+
+.summary-table{
+    width: 80%;
+    background-color: rgb(235, 235, 255);
+    padding: 20px;
+border-radius: 12px;
+}
+
+.totals {
+    width: 80%;
+    padding: 20px;
+}
+
+.summary-sub-section, .add-on-list, .totals-section {
+display: flex;
+justify-content: space-between;
+width: 70%;
+margin: auto;
+
+}
+.add-on-list  {
+    margin-top: 20px;
+}
+.add-on-left {
+    color: rgb(159, 167, 175);
+}
+.line {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 1px;
+    background-color: rgb(200, 200, 220);
+    margin: 20px auto;
+
+}
+.summary-left>p, .add-on-planname{
+    margin: 0;
+    padding: 0;
+}
+.summary-left>a{
+    margin: 0;
+    padding: 0;
+    color: rgb(159, 167, 175);
+    font-weight: 600;
+    font-size: 12px;
+}
+.sumary-planname {
+    color: rgb(15, 15, 97);
+    font-weight: 600;
+
+}
+
+.summary-left{
+
+}
+
+.summary-right {
+    font-weight: 600;
+    color: rgb(15, 15, 97);
+    margin-top: 4px;
+}
+
+.add-on-right{
+}
+
+.totals-right {
+    font-size: 18px;
+    color: rgb(39, 39, 225);
+    font-weight: 700;
+}
+.summary-nav{
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.summary-nav > .form-2-nav >button {
+    background-color: blueviolet;
+}
+
+@media(max-width: 780px) {
+
+    .summary {
+        position: absolute;
+        background-color: white;
+        top: -40px;
+        width: 80%;
+        padding: 30px;
+        left: 60px;
+        border-radius: 20px;
+        max-height: 500px;
+    }
+
+
+}

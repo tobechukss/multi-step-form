@@ -1,0 +1,115 @@
+.form-3-section {
+    position: relative;
+    width: 50%;
+
+}
+
+.form-3-section .add-on-container {
+    display: block;
+}
+
+.add-on-container .add-on-option {
+    border: 2px solid rgba(204, 204, 204, 0.5);
+    background-color: rgba(192, 213, 240, 0.2);
+    border-radius: 15px;
+    height: 90px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.add-on-option input[type="checkbox"].add-on-checkbox {
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 10%;
+}
+
+.add-on-inner-container {
+    width: 70%;
+
+}
+
+.add-on-title {
+    color: rgb(15, 15, 97);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.add-on-subtitle {
+    margin: 0;
+    padding: 0;
+    color: rgb(154, 145, 145);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.add-on-price {
+    color: rebeccapurple;
+    font-weight: 500;
+}
+
+@media (max-width: 1170px) {
+    .form-3-section {
+        width: 70%;
+
+    }
+
+}
+
+@media(max-width: 780px) {
+
+    .form-3-section {
+        position: absolute;
+        background-color: white;
+        top: -40px;
+        width: 80%;
+        padding: 30px;
+        left: 60px;
+        border-radius: 20px;
+        max-height: 500px;
+    }
+
+    .form-3-section>.bottom-2-nav {
+left:-70px;
+        bottom: -400px;
+    }
+
+    .add-on-title {
+        font-size: 16px;
+    }
+
+    .add-on-subtitle {
+        font-size: 12px;
+    }
+
+    .add-on-option input[type="checkbox"].add-on-checkbox {
+        margin-top: 25px;
+        width: 10%;
+        margin-left: 10px;
+    }
+
+    .add-on-container .add-on-option {
+        height: 80px;
+        }
+
+        .add-on-price {
+            padding-right: 10px;
+            color: gray;
+            font-weight: 600;
+        }
+
+}
+
+@media(max-width: 450px) {
+    
+    .form-3-section {
+        left: 30px;
+
+    }
+    .form-3-section>.bottom-2-nav {
+        left: -30px;
+    }
+
+}

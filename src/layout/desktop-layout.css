@@ -1,0 +1,28 @@
+.app-section {
+    position: relative;
+    height: 100vh;
+    background-color: aliceblue;
+    z-index: 1;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.children-section {
+    position: relative;
+    padding-left: calc(250px + 10%);
+    padding-top: 40px;
+    width: 80%;
+
+}
+
+@media (max-width:780px){
+    .app-section{
+        position: unset;
+    }
+    .children-section{
+        padding-left: 20px;
+        width: 80%;
+        position: absolute;
+    }
+
+}

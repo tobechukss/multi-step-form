@@ -1,0 +1,134 @@
+section.form-1{
+position:relative;
+width:50%
+}
+.form-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(15, 15, 97);
+    margin: 0;
+}
+
+.form-subtitle {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    margin: 5px 0 40px 0;
+}
+label, input {
+    display: block;
+}
+
+label{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: rgb(15, 15, 97);
+}
+input{
+    height: 40px;
+    width: 100%;
+    color: rgb(15, 15, 97);
+    border: 1px solid rgb(216, 229, 241);
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 4px;
+    font-size: 16px;
+}
+input[type=text]:focus,input[type=email]:focus  {
+    border: 1px solid blueviolet;
+  }
+
+  input[type=email]:focus:after:invalid {
+    border: 1px solid red
+  }
+
+  .form-1 button.form-1-button {
+    float: right;
+    background-color:rgb(15, 15, 97);
+    color: aliceblue;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 70px;
+
+
+  }
+
+  .form-1 button:disabled{
+    background-color: grey;
+    color: rgb(162, 162, 162);
+    cursor: unset;
+    font-weight: 600;
+  }
+
+  .input-error {
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-size: 10px;
+  }
+
+  @media (max-width: 780px){
+    section.form-1 {
+      position: absolute;
+      top: -40px;
+      background-color: white;
+      z-index: 3;
+     width: 100%;
+      margin: auto;
+      border-radius: 40px;
+      left: 60px;
+      padding: 40px 0;
+    }
+
+    .form-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: rgb(15, 15, 97);
+      width: 80%;
+      margin: 20px auto 0 auto;
+  }
+  
+  .form-subtitle {
+      font-size: 14px;
+      color: #333;
+      font-weight: 500;
+      width: 80%;
+      margin: 0 auto 40px auto;
+      font-size: 9px;
+  }
+    label {
+      width: 80%;
+      margin: 20px auto 5px auto;
+      font-size: 10px;
+    }
+    input{
+      height: 20px;
+      width:80%;
+      color: rgb(15, 15, 97);
+      border: 1px solid rgb(216, 229, 241);
+      outline: none;
+      border-radius: 7px;
+      padding: 2px 4px;
+      font-size: 12px;
+      margin: auto;
+  }
+
+  .form-1-button {
+    position: absolute;
+    bottom: -90px;
+    right: 30px;
+  }
+  .input-error {
+    padding-left: 60px;
+  }
+  }
+
+  @media (max-width: 500px){
+    section.form-1 {
+      left: 20px;
+    }
+  }
